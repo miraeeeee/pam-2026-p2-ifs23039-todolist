@@ -20,7 +20,7 @@ kotlin {
     jvmToolchain(25)
 }
 application {
-    mainClass = "io.ktor.server.netty.EngineMain"
+    mainClass = "org.delcom.ApplicationKt"
 }
 
 dependencies {
