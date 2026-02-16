@@ -13,7 +13,7 @@ group = "com.delcom"
 version = "0.0.1"
 
 application {
-    mainClass = "com.delcom.ApplicationKt"
+    mainClass = "crg.delcom.ApplicationKt"
 }
 
 dependencies {
