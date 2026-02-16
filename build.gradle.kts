@@ -9,18 +9,11 @@ plugins {
     id("org.jetbrains.kotlin.plugin.serialization") version "2.2.21"
 }
 
-group = "org.delcom"
+group = "com.delcom"
 version = "0.0.1"
 
 application {
-    mainClass = "org.delcom.ApplicationKt"
-}
-
-kotlin {
-    jvmToolchain(25)
-}
-application {
-    mainClass = "org.delcom.ApplicationKt"
+    mainClass = "com.delcom.ApplicationKt"
 }
 
 dependencies {
